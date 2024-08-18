@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.content{
+    width: 100%;
+    background-color: #f5f5f5;
+
+
+
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.wrap{
+    display: flex;
+    width: 1200px;
+
+}
+header{
+    display: flex;
+    width: 1200px;
+
+
+}
+.logo{
+    display: flex;
+    padding-top: 10px;
+    h1{
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    img{
+        padding-left: 20px;
+        padding-bottom: 10px;
+        height: 60px;
+        width: 60px;
+    }
+
+}
+.user{
+    display: flex;
+    margin-left: auto;
+    h3{
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+    img{
+        padding-top: 10px;
+        padding-right: 20px;
+        height: 60px;
+        width: 60px;
+    }
+}
+.menu__list{
+    list-style: none;
+    margin: 0;
+}
+.menu__list-link {
+    width: 300px;
+    height: 60px;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+}
+.menu__list-item{
+    width: 200px;
+
+    padding-top: 10px;
+    margin-right: 20px;
+    display: block;
+
+
+
+}
+.menu__list-item:hover {
+    background-color: #f2e2e2;
+    .menu__list-link{
+        background-color: #f2e2e2;
+    }
+}
+
+
+.menu__list-item img {
+    margin-left: 10px;
+}
+.menu__list-link{
+
+}
+a{
+    padding-top: 10px;
+}
+.menu__list-item img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+.menu{
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.message{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.list_message{
+    justify-content: space-between;
+    width: 100%;
+}
+.favorite{
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.who{
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+}
+.text_sms{
+    padding-top: 10px;
+    padding-right: 20px;
+    font-weight: 700;
+}
+.sms_message{
+    padding-top: 10px;
+    padding-right: 20px;
+    opacity: 0.5;
+}
+.paper_clip{
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.data{
+    padding-top: 10px;
+    padding-right: 20px;
+    font-weight: 700;
+}
+.clip{
+    display: block;
+
+}
+.message {
+    transition: background-color 0.3s ease;
+
+}
+
+.message:hover {
+    background-color: #f2e2e2;
+}
+@media only screen and (max-width: 990px) {
+    .favorite{
+        width: 30px;
+        height: 30px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .who{
+        padding-left: 5px;
+        padding-top: 10px;
+        padding-right: 10px;
+        font-weight: 700;
+    }
+    .text_sms{
+        padding-top: 10px;
+        padding-right: 20px;
+        font-weight: 700;
+    }
+    .sms_message{
+        padding-top: 10px;
+        padding-right: 20px;
+        opacity: 0.5;
+    }
+    .paper_clip{
+        padding-top: 5px;
+        width: 20px;
+        height: 20px;
+    }
+    .data{
+        padding-top: 10px;
+        padding-right: 20px;
+        font-weight: 700;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .menu__list-link {
+        width: 30px;
+        height: 60px;
+        background-color: #f5f5f5;
+        text-decoration: none;
+        color: black;
+        text-align: left;
+        font-weight: 600;
+        display: none;
+
+    }
+    .menu__list-item{
+        width: 30px;
+        text-align: center;
+        display: flex;
+        padding-right: 50px;
+        a{
+            display: none;
+        }
+
+    }
+}
+@media only screen and (max-width: 550px) {
+    .sms_message{
+        display: none;
+    }
+}
+.list_message {
+    max-height: 90vh;
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #d4d4d4;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb{
+    background: #939393;
+    border-radius: 8px;
+    border 3px solid #d4d4d4;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #7c7c7c;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
